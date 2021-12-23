@@ -57,17 +57,18 @@ list = [
 ]
 ]
 control.inBackground(function () {
+    // 呼叫LED(排數)(暫停毫秒數)
     LED(0, 1000)
 })
 control.inBackground(function () {
-    LED(3, 120)
+    LED(3, 925)
 })
 control.inBackground(function () {
-    LED(1, 500)
+    LED(1, 975)
 })
 control.inBackground(function () {
-    LED(4, 50)
+    LED(4, 900)
 })
 control.inBackground(function () {
-    LED(2, 250)
+    LED(2, 950)
 })
